@@ -1,0 +1,50 @@
+<!doctype html public "-//ietf//dtd html 2.0//en">
+
+<html>
+
+<head>
+<title>MAX stochastic objects</title>
+</head>
+
+<body  bgcolor="#ffffff">
+
+<center>
+<h2>MAX Stochastic objects</h2>
+</center>
+<p>
+
+<a name="prob">
+<h3>_prob_</h3>
+</a><p>
+
+standard MAX external<p>
+
+prob creates a dynamic first-order Markov chain in response to incoming lists of transition probabilities in the form: state n, state n+1, weight. New lists can be added while a patch is running, allowing the Markov chain to evolve over time. Each incoming bang causes prob to send a new state out the left outlet based on the current state and the stored transition table. If no successor to the current state has been defined, prob sends a bang out the right outlet, possibly signalling the conclusion of a phrase or section. prob also responds to a reset message, which makes it jump to a specified state if it can't find a successor to the current state. At any time, the entire transition table can be displayed in the MAX window.<p>
+
+<a name="anal">
+<h3>_anal_</h3>
+</a><p>
+
+standard MAX external<p>
+
+anal is a companion to prob used to create transition tables. Each time an int is received at the inlet, prob reports the number of times it and the preceeding int have ocurred as a pair. The output is in the form of a list: int n-1, int n, weight, which can be sent directly into prob.<p>
+
+<a name="histo">
+<h3>_histo_</h3>
+</a><p>
+
+standard MAX external<p>
+
+histo is used to create a histogram of incoming ints 0-127. Each time an int is received, its corresponding register is incremented. histo can be connected directly to the table object, for graphical display of the histogram, and also to take advantage of table's  probability functions.<p>
+
+<a name="table">
+<h3>_table_</h3>
+</a><p>
+
+standard MAX UI object<p>
+
+table allows for the storage and graphical display of two-dimensional arrays. In addition, it responds to two probablity function messages: quantile and bang. The quantile message<p>
+
+</body>
+
+</html>

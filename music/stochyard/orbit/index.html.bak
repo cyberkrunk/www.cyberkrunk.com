@@ -1,0 +1,206 @@
+<head>
+<title>Orbit Gallery</title>
+</head>
+
+<body bgcolor="#ffffff">
+
+<center>
+<h2>Welcome to the Orbit Gallery</h2>
+</center>
+
+<p>
+<center>
+[ <a href="#stochastic">Stochastic</a> |
+<a href="#fractal">Fractal</a> ]
+</center>
+<p>
+
+<hr>
+<a name="stochastic">
+<center>
+<h2>_Stochastic Orbits_</h2>
+</center>
+</a>
+<p>
+
+<p>
+<center>
+[ <a href="#uniran">uniform random</a> |
+<a href="#brown">brownian noise</a> |
+<a href="#gauss">Gauss</a> |
+<a href="#asinran">arc sine distribution</a> |
+<a href="#betaran">Beta distribution</a> |
+<a href="#cauchy">Cauchy distribution</a> ]
+</center>
+<p>
+
+<hr>
+<a name="uniran">
+<center>
+<h3>_uniform random_</h3>
+</center>
+</a>
+<p>
+<center>
+<img src="uniran_h.GIF" alt="histogram" width=160 height=146>
+<img src="uniran_n.GIF" alt="note graph" width=288 height=149>
+<a href="uniran.mid">uniran.mid</a>
+</center>
+histogram: 2048 values; note graph: 1024 values; MIDI file: 256 values<p>
+This is uniform distribution which random number generators usually default to. Typically, a value from 0 to 32767 is generated, then divided by 32768 to result in a number in the range [0...1). Eventually, the histogram should flatten out to a straighter line.<p>
+
+Based on Litter implimentation (which is based on Gary Lee Nelson's Rand oblect).<p>
+
+<hr>
+<a name="brown">
+<center>
+<h3>_brownian noise_</h3>
+</center>
+</a>
+<p>
+<center>
+<img src="brown_h.GIF" alt="histogram" width=160 height=150>
+<img src="brown_n.GIF" alt="note graph" width=288 height=147>
+<a href="brown.mid">brown.mid</a>
+</center>
+histogram: 2048 values; note graph: 1024 values; MIDI file: 256 values<p>
+scatter factor 0.2<p>
+A random walk (or "staggering drunk") in which successive values are a certain random step-size apart. A sufficiently high step-size (or scatter foctor) will result in the uniform distribution above. A step-size of 0 will result in the same value being repeated. Any step-size greater than 0 should eventually lead to a flat histogram.<p>
+
+Based on Litter implimentation. Also implimented in MAX's built-in drunk object.<p>
+
+<hr>
+<a name="gauss">
+<center>
+<h3>_Gauss-Laplace distribution_</h3>
+</center>
+</a>
+<p>
+<center>
+<img src="gauss_h.GIF" alt="histogram" width=160 height=143>
+<img src="gauss_n.GIF" alt="note graph" width=288 height=146>
+<a href="gauss.mid">gauss.mid</a>
+</center>
+histogram: 2048 values; note graph: 1024 values; MIDI file: 256 values<p>
+mu: 64; sigma: 20<p>
+Also known as the normal distribution, or bell-curve. This implimentation has two variables, mu and sigma. Sigma is a scaling factor and mu is an offset.<p>
+
+Based on Litter implimentation.<p>
+
+<hr>
+<a name="asinran">
+<center>
+<h3>_arc sine distribution_</h3>
+</center>
+</a>
+<p>
+<center>
+<img src="asinran_h.GIF" alt="histogram" width=160 height=146>
+<img src="asinran_n.GIF" alt="note graph" width=288 height=146>
+<a href="asinran.mid">asinran.mid</a>
+</center>
+histogram: 2048 values; note graph: 1024 values; MIDI file: 256 values<p>
+
+A useful function, since the U-shaped histogram favours the upper and lower limits.<p>
+
+Based on Litter implimentation.<p>
+
+<hr>
+<a name="betaran">
+<center>
+<h3>_beta distribution_</h3>
+</center>
+</a>
+<p>
+<center>
+<img src="betaran_h.GIF" alt="histogram" width=160 height=143>
+<img src="betaran_n.GIF" alt="note graph" width=288 height=145>
+<a href="betaran.mid">betaran.mid</a>
+</center>
+histogram: 2048 values; note graph: 1024 values; MIDI file: 256 values<p>
+alpha: 0.1; beta: 0.9<p>
+Takes two variables, alpha and beta. When alpha and beta are both 0.5, the arc sine distribution results. A higher beta value 'tilts' the U-shape of the histogram to the left (and vice-versa).<p>
+
+Based onLitter implimentation.<p>
+
+<hr>
+<a name="cauchy">
+<center>
+<h3>_Cauchy distribution_</h3>
+</center>
+</a>
+<p>
+<center>
+<img src="cauchy1_h.GIF" alt="histogram" width=160 height=144>
+<img src="cauchy1_n.GIF" alt="note graph" width=288 height=146>
+<a href="cauchy1.mid">cauchy1.mid</a>
+</center>
+histogram: 1024 values; note graph: 1024 values; MIDI file: 256 values<p>
+tau: 1; iopt: 0; + 64<p>
+The histogram is somewhat similay to the normal distribution, but the two extremes trail off much more gradually. In this run, the centre value for the histogram went off the scale at around the 270th value. This implimentation takes two values: tau controls the spread at the centre, higher values giving more spread. iopt is either 0 or 1: a value of 0 gives the complete symmetrical histogram, a value of 1 gives only the positive half. Here 64 was added as an offset.<p>
+<img src="cauchy2_h.GIF" alt="histogram" width=160 height=145>
+<img src="cauchy2_n.GIF" alt="note graph" width=288 height=146>
+<a href="cauchy2.mid">cauchy2.mid</a>
+</center>
+histogram: 1024 values; note graph: 1024 values; MIDI file: 256 values<p>
+tau: 10; iopt: 0; + 64<p>
+The value of 10 for tau spreads out the shape, but in this instance generated many values out of the 0-127 MIDI range.<p>
+<img src="cauchy3_h.GIF" alt="histogram" width=160 height=145>
+<img src="cauchy3_n.GIF" alt="note graph" width=288 height=148>
+<a href="cauchy3.mid">cauchy3.mid</a>
+</center>
+histogram: 1024 values; note graph: 1024 values; MIDI file: 256 values<p>
+tau: 5; iopt: 1; + 48<p>
+Here the value of 1 for iopt generates only the upper half of the histogram.<p>
+
+Based onLitter implimentation.<p>
+
+
+<hr>
+<a name="fractal">
+<center>
+<h2>_Fractal Orbits_</h2>
+</center>
+</a>
+<p>
+
+<p>
+<center>
+[ <a href="#voss">Voss (1/f)</a> ]
+</center>
+<p>
+
+<hr>
+<a name="voss">
+<center>
+<h3>_voss (1/f noise)_</h3>
+</center>
+</a>
+<p>
+<center>
+<img src="voss_h.GIF" alt="histogram" width=160 height=143>
+<img src="voss_n.GIF" alt="note graph" width=288 height=150>
+<a href="voss.mid">voss.mid</a>
+</center>
+histogram: 2048 values; note graph: 1024 values; MIDI file: 256 values<p>
+
+Based Litter implimentation.<p>
+
+
+<hr>
+Back to <a href="http://www.chass.utoronto.ca:8080/~jankowsk/main.html">Homepage.</a>
+
+<address>
+last modified 
+<script language="JavaScript">
+  <!--  hide script from old browsers
+  document.write(document.lastModified)
+  // end hiding contents -->
+</script>
+<br>
+</address>
+
+</body>
+</html>
+
+

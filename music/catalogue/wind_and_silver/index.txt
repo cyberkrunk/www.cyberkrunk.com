@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=iso-8859-1">
+	<TITLE>Chester Jankowski, composer: Wind and Silver</TITLE>
+	<META NAME="Description" CONTENT="Chester Jankowski, composer: Wind and Silver ">
+	<META NAME="Keywords" CONTENT="Chester Jankowski, Wind and Silver, composer, electroacoustic, cyberkrunk">
+	
+<link rel="stylesheet" type="text/css" href="/style.css" />
+
+</HEAD>
+<BODY>
+
+<div class="main">
+<h1>Chester Jankowski: music catalogue</h1>
+
+<h2>Orchestra</h2>
+
+<h3>Wind and Silver, 1989.</h3>
+<p>For orchestra and soprano.</p>
+
+<div class="notes">
+<p>Notes<br>
+Wind and Silver was originally written for Soprano, Violin, Cello and Piano. During the summer of 1989, I attended the Aspen Music School in Colorado. My
+roommate was Fred Clarke, a conducting student who was at the time
+conducting the Berkeley Chamber Players at Yale. Fred heard a reading
+of the quartet version of the piece at Aspen and encouraged me to
+write an orchestral version. Beyond that, he even promised to perform
+it! These days, few 21-year-old composers get to hear their orchestral music
+performed, so I leapt at the opportunity. In a huge burst of creative
+energy, working day and night, I completed the orchestration in one
+week, and copied all of the parts the next week. (After that, I was
+ready for some hiking!) True to his word, Fred conducted the piece
+that October. I got a kick from the posters around New Haven that read:
+Mahler, Copland, Jankowski. The mp3 is from a cassette master that
+was in rather poor shape.</p>
+</div>
+
+<p>Duration = 7'36&quot;</p>
+<p>Listen:<br>
+<A HREF="wind_and_silver_orch.mp3" NAME="wind_and_silver_orcs.mp3">wind_and_silver_orc.mp3</A> (128 kb/s .mp3: 7.1 MB)</p>
+</div>
+
+<div class="copyright">
+<p>Music Copyright 1989 Chester Jankowski</p>
+</div>
+
+</BODY>
+</HTML>
+

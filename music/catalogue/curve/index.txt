@@ -1,0 +1,68 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<META NAME="Description" CONTENT="Chester Jankowski, composer: taming the monster Peano curve">
+<META NAME="Keywords" CONTENT="Chester Jankowski, taming the monster Peano curve, composer, electracoustic, cyberkrunk, fractal, benoit mandelbrot, giuseppe peano, the fractal geometry of nature">
+<title>Chester Jankowski, composer: taming the monster Peano curve</title>
+</head>
+
+<body bgcolor="#000000" text="#FFFFFF" link="#FFFFFF"
+vlink="#FFFFFF" alink="#FFFFFF">
+
+<blockquote>
+<p align="left"><font size="4" face="Courier New, Courier, monospace">taming the monster
+Peano curve </font></p>
+
+<p align="left"><font size="4" face="Courier New, Courier, monospace">for amplified
+violin and horn </font></p>
+
+<blockquote>
+<p align="left"><font size="4" face="Courier New, Courier, monospace"><i>notes</i></font></p>
+
+<p align="left"><font size="4" face="Courier New, Courier, monospace">The title is
+derived from Benoit Mandelbrot's classic treatise, <cite>The
+Fractal Geometry of Nature</cite>. A Peano curve, named for the
+Italian mathematician Giuseppe Peano (1858-1932), is a curve which represents a
+central idea in fractal geometry: a one dimensional object twists
+back on itself to fill up two dimensions. The curve is loosely
+represented in the piece in several ways. In the first main
+section of the piece, the two instruments tend to fill up their
+respective pitch-spaces and rhythm-spaces. A tonality will begin
+to emerge, but one or both of the instruments will quickly spiral
+away. Also in this section there is general disagreement between
+the two players as to what kind of music they should play: long
+expressive phrases, or quick bursts of energy.</font></p>
+
+<p align="left"><font size="4" face="Courier New, Courier, monospace">In the second
+section, the two players decide to cooperate more on matters of
+form and style. Tonalities foreshadowed in the previous section
+become concrete. We examine material here at different scales,
+and find that the closer we look, the more detail emerges. The
+violin part is played on an electric violin, which is amplified
+and undergoes some signal processing.</font></p>
+
+<p align="left"><font size="4" face="Courier New, Courier, monospace">The piece was
+written for vilionist Scott St. John for his Millennium concert
+series. Scott performed the premiere, along with James
+Sommerville, horn, at the Glenn Gould Studio in CBC's
+Broadcasting Centre in Toronto. That performance was later
+broadcast on CBC Stereo's <i>The Arts Tonight.</i></font></p>
+</blockquote>
+
+<p align="left"><font size="4" face="Courier New, Courier, monospace">duration = c. 11
+minutes</font></p>
+
+<P ALIGN=LEFT><FONT FACE="Courier"><FONT size="4">Listen:</FONT></FONT></P>
+<P ALIGN=LEFT><FONT size="4"><FONT FACE="Courier"><A HREF="peano_curve.mp3" NAME="peano_curve.mp3">peano_curve.mp3</A>
+(128 kb/s .mp3: 9.6 MB)</FONT></FONT></P>
+
+<p align="left"><font size="4" face="Courier New, Courier, monospace">Copyright 1996
+Chester Jankowski</font></p>
+</blockquote>
+
+<p align="left"><font size="4" face="Courier New, Courier, monospace"></font>&nbsp;</p>
+</body>
+</html>

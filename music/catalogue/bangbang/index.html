@@ -1,0 +1,144 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=iso-8859-1">
+	<TITLE>Chester Jankowski, composer: bangbang</TITLE>
+	<META NAME="Description" CONTENT="Chester Jankowski, composer: bangbang">
+	<META NAME="Keywords" CONTENT="Chester Jankowski, bangbang, composer, electroacoustic, cyberkrunk">
+	
+<link rel="stylesheet" type="text/css" href="/style.css" />
+
+</HEAD>
+
+<div class="navi">
+<div id="navbar">
+<p>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/music/catalogue">Music</a></li>
+<li><a href="/music/writings">Writing</a></li>
+<li><a href="http://blog.cyberkrunk.com">Blog</a></li>
+</ul>
+</p>
+</div>
+</div>
+
+<BODY>
+
+<div class="main">
+<h1>Chester Jankowski: music catalogue</h1>
+
+<h2>Chamber + Electroacoustic</h2>
+
+<h3>bangbang, 1996.</h3>
+<p>For piano and computer-controlled synthesizer.</p>
+
+<div class="notes">
+<p>
+When two streams of chords come crashing together and collide, all that energy packed into a small space needs to go somewhere. It spins out, leading
+to new configurations and densities. The Synthesizer part (which
+only plays 'piano' sounds) utilizes a program written in MAX. It
+complements and extends the piano part; the two taken together
+form a sort of Hyper-piano.</p>
+
+<p> bangbang was composed for pianist Stephen Clarke, who performed the premiere
+in June 1995 at Toronto's Music Gallery. That performance was
+later broadcast on CBC Stereo's <i>Two New Hours</i>.</p>
+</div>
+
+<p>Duration = 14 minutes</p>
+<p>Listen:<br>
+<object height="18" width="100%"> <param name="movie" value="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F21943950&amp;auto_play=false&amp;player_type=tiny&amp;font=Arial&amp;color=ff7700"></param> <param name="allowscriptaccess" value="always"></param> <param name="wmode" value="transparent"></param><embed wmode="transparent" allowscriptaccess="always" height="18" src="http://player.soundcloud.com/player.swf?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F21943950&amp;auto_play=false&amp;player_type=tiny&amp;font=Arial&amp;color=ff7700" type="application/x-shockwave-flash" width="100%"></embed> </object>   
+<a href="bangbang_interview.mp3">bangbang_interview.mp3</a>(128 kb/s .mp3: 3.8 MB)</p>
+
+<p>Browse graphics samples of the score:</p>
+
+<p><a href="bangbang1.GIF"><img src="../page1.GIF" alt="page 1" border="0"
+width="76" height="51"></a>
+<a href="bangbang2.GIF"><img src="../page2.GIF" alt="page 1" border="0" width="76" height="51"></a>
+<a href="bangbang3.GIF"><img src="../page3.GIF" alt="page 1"
+border="0" width="76" height="51"></a></p>
+
+<p>Download the MAX patches:</p>
+
+<p<a href="bangbang_coll1.0.sit.hqx"><img src="maxcoll.GIF" border="0" width="32" height="32"></a>
+Get the MAX 3.0 <a href="bangbang_coll1.0.sit.hqx">Collective</a> if you already have MAX 3.0.<br>
+<a href="bangbang1.0.sit.hqx"><img src="maxalone.GIF" border="0" width="32"
+height="32"></a>
+Get the <a href="bangbang1.0.sit.hqx">Standalone Application</a> if you do
+not have MAX (~374Kb).</p>
+
+<p>Technical Overview</p>
+
+<p>The synthesizer is connected to a Macintosh computer running bangbang software, which consists of a series of MAX patches and a main interface
+patch. The Macintosh routes the MAX generated MIDI data back to
+the synthesizer for playback. The synth's left pedal is used to
+choose the individual patches, which are indicated in the score
+drawn in ovals. The synth's right pedal is used for control
+within two of the patches. The patches are:</p>
+
+<p>PBENDER: applies a pitch-bend with random speed.<br>
+REPEATER: repeats chords between 3 and 21 times, according to a
+stochastic weighting scheme. This is follwed by a single chord
+consisting of a one-step random walk for each voice.<br>
+CHORDER: adds three notes to a single line, creating four-note
+chords. After the right pedal is pressed, the chords are
+arpeggiated.<br>
+FUGA: creates 4 delayed, transposed notes for every note played
+in (1 for each speaker).<br>
+CONVERGENCE: creates two streams of constantly cycling,
+converging lines. A certain percentage of the notes are deflected
+to the rear speakers and repeated. This percentage starts at 5%
+and ends at 55%.</p>
+
+<p>Requirements:</p>
+
+<p>Acoustic piano<br>
+76-note (or larger) keyboard controller<br>
+Multitimbral synth with acoustic piano emulation, at least 2 separate stereo outs<br>
+4 channels of amplification (stereo front, stereo rear)<br>
+Appropriate signal processing (i.e., reverb)</p>
+
+<p>Channel Map:</p>
+
+<p>1 front left/right
+(repeater)<br>
+2 front left/right (chorder)<br>
+3 front left/right (fuga: leader)<br>
+4 front left (fuga: follower 4)<br>
+5 front right (fuga: follower 3)<br>
+6 rear left (fuga: follower 1)<br>
+7 rear right (fuga: follower 2)<br>
+8 front left/right (convergence: cascade)<br>
+9 rear left/right (convergence: accents)<br>
+10 not used<br>
+11 not used<br>
+12 not used<br>
+13 not used<br>
+14 not used<br>
+15 rear left pitchbend set to +- 3 semitones (pbender)<br>
+16 rear right pitchbend set to +- 6 semitones (pbender)</p>
+
+<p>Controller Information:</p>
+
+<p>transmit channel: 2<br>
+local control: off<br>
+Left Pedal: controller 2<br>
+Right Pedal: controller 4</p>
+</div>
+
+<div class="copyright">
+<p>Music Copyright 1996 Chester Jankowski</p>
+<p><!-- Site Meter -->
+<script type="text/javascript" src="http://s12.sitemeter.com/js/counter.js?site=s12cyberkrunk">
+</script>
+<noscript>
+<a href="http://s12.sitemeter.com/stats.asp?site=s12cyberkrunk" target="_top">
+<img src="http://s12.sitemeter.com/meter.asp?site=s12cyberkrunk" alt="Site Meter" border="0"/></a>
+</noscript>
+<!-- Copyright (c)2009 Site Meter --></p>
+</div>
+
+</BODY>
+</HTML>
+

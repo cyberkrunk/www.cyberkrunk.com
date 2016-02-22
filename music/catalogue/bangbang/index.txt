@@ -1,0 +1,146 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="A dude editing html">
+<META NAME="Description" CONTENT="Chester Jankowski, composer: bangbang">
+<META NAME="Keywords" CONTENT="Chester Jankowski, bangbang, composer, electracoustic, cyberkrunk">
+<title>Chester Jankowski, composer: bangbang</title>
+</head>
+
+<blockquote>
+<body bgcolor="#000000" text="#FFFFFF" link="#FFFFFF"
+vlink="#FFFFFF" alink="#FFFFFF">
+
+<p align="left"><font size="4" face="Courier New, Courier, monospace">bangbang </font></p>
+
+<p align="left"><font size="4" face="Courier New, Courier, monospace">for piano and
+computer-controlled synthesizer </font></p>
+
+<blockquote>
+<p align="left"><font size="4" face="Courier New, Courier, monospace"><i>notes</i></font></p>
+
+<p align="left"><font size="4" face="Courier New, Courier, monospace">When two streams of
+chords come crashing together and collide, all that energy packed
+into a small space needs to go somewhere. It spins out, leading
+to new configurations and densities. The Synthesizer part (which
+only plays 'piano' sounds) utilizes a program written in MAX. It
+complements and extends the piano part; the two taken together
+form a sort of Hyper-piano.</font></p>
+
+<p align="left"><font size="4" face="Courier New, Courier, monospace">bangbang was
+composed for pianist Stephen Clarke, who performed the premiere
+in June 1995 at Toronto's Music Gallery. That performance was
+later broadcast on CBC Stereo's Two New Hours</font></p>
+</blockquote>
+
+<p align="left"><font size="4" face="Courier New, Courier, monospace">duration = c. 14
+minutes</font></p>
+
+<P ALIGN=LEFT><FONT FACE="Courier"><FONT size="4">Listen:</FONT></FONT></P>
+<P ALIGN=LEFT><FONT size="4"><FONT FACE="Courier"><A HREF="bangbang.mp3" NAME="bangbang.mp3">bangbang.mp3</A>
+(128 kb/s .mp3: 12.8 MB)</FONT></FONT></P>
+<P ALIGN=LEFT><FONT size="4"><FONT FACE="Courier"><A HREF="bangbang_interview.mp3" NAME="bangbang_interview.mp3">bangbang_interview.mp3</A>
+(128 kb/s .mp3: 3.8 MB)</FONT></FONT></P>
+
+
+<p align="left"><font size="4" face="Courier New, Courier, monospace">Browse graphics
+samples of the score</font></p>
+
+<p align="left"><a href="bangbang1.GIF"><font size="4"
+face="Courier New, Courier, monospace"><img src="../page1.GIF" alt="page 1" border="0"
+width="76" height="51"></font></a><font size="4" face="Courier New, Courier, monospace"> </font><a
+href="bangbang2.GIF"><font size="4" face="Courier New, Courier, monospace"><img
+src="../page2.GIF" alt="page 1" border="0" width="76" height="51"></font></a><font
+size="4" face="Courier New, Courier, monospace"> </font><a href="bangbang3.GIF"><font
+size="4" face="Courier New, Courier, monospace"><img src="../page3.GIF" alt="page 1"
+border="0" width="76" height="51"></font></a><font size="4"
+face="Courier New, Courier, monospace"> </font></p>
+
+<p align="left"><font size="4" face="Courier New, Courier, monospace">Download the MAX
+patches</font></p>
+
+<p align="left"><a href="bangbang_coll1.0.sit.hqx"><font size="4"
+face="Courier New, Courier, monospace"><img src="maxcoll.GIF" border="0" width="32"
+height="32"></font></a><font size="4" face="Courier New, Courier, monospace">Get the MAX
+3.0 </font><a href="bangbang_coll1.0.sit.hqx"><font size="4"
+face="Courier New, Courier, monospace">Collective</font></a><font size="4" face="Courier New, Courier, monospace">
+if you already have MAX 3.0.<br>
+</font><a href="bangbang1.0.sit.hqx"><font size="4"
+face="Courier New, Courier, monospace"><img src="maxalone.GIF" border="0" width="32"
+height="32"></font></a><font size="4" face="Courier New, Courier, monospace">Get the </font><a
+href="bangbang1.0.sit.hqx"><font size="4" face="Courier New, Courier, monospace">Standalone
+Application</font></a><font size="4" face="Courier New, Courier, monospace"> if you do
+not have MAX (~374Kb).<br>
+</font></p>
+
+<p align="left"><font size="4" face="Courier New, Courier, monospace">Technical Overview</font></p>
+
+<p align="left"><font size="4" face="Courier New, Courier, monospace">The synthesizer is
+connected to a Macintosh computer running bangbang software,
+which consists of a series of MAX patches and a main interface
+patch. The Macintosh routes the MAX generated MIDI data back to
+the synthesizer for playback. The synth's left pedal is used to
+choose the individual patches, which are indicated in the score
+drawn in ovals. The synth's right pedal is used for control
+within two of the patches. The patches are:</font></p>
+
+<p align="left"><font size="4" face="Courier New, Courier, monospace">PBENDER: applies a
+pitch-bend with random speed.<br>
+REPEATER: repeats chords between 3 and 21 times, according to a
+stochastic weighting scheme. This is follwed by a single chord
+consisting of a one-step random walk for each voice.<br>
+CHORDER: adds three notes to a single line, creating four-note
+chords. After the right pedal is pressed, the chords are
+arpeggiated.<br>
+FUGA: creates 4 delayed, transposed notes for every note played
+in (1 for each speaker).<br>
+CONVERGENCE: creates two streams of constantly cycling,
+converging lines. A certain percentage of the notes are deflected
+to the rear speakers and repeated. This percentage starts at 5%
+and ends at 55%.</font></p>
+
+<p align="left"><font size="4" face="Courier New, Courier, monospace">Requirements</font></p>
+
+<p align="left"><font size="4" face="Courier New, Courier, monospace">Acoustic piano<br>
+76-note (or larger) keyboard controller<br>
+Multitimbral synth with acoustic piano emulation, at least 2
+separate stereo outs<br>
+4 channels of amplification (stereo front, stereo rear)<br>
+Appropriate signal processing (i.e., reverb)</font></p>
+
+<p align="left"><font size="4" face="Courier New, Courier, monospace">Channel Map</font></p>
+
+<p align="left"><font size="4" face="Courier New, Courier, monospace">1 front left/right
+(repeater)<br>
+2 front left/right (chorder)<br>
+3 front left/right (fuga: leader)<br>
+4 front left (fuga: follower 4)<br>
+5 front right (fuga: follower 3)<br>
+6 rear left (fuga: follower 1)<br>
+7 rear right (fuga: follower 2)<br>
+8 front left/right (convergence: cascade)<br>
+9 rear left/right (convergence: accents)<br>
+10 not used<br>
+11 not used<br>
+12 not used<br>
+13 not used<br>
+14 not used<br>
+15 rear left pitchbend set to +- 3 semitones (pbender)<br>
+16 rear right pitchbend set to +- 6 semitones (pbender)</font></p>
+
+<p align="left"><font size="4" face="Courier New, Courier, monospace">Controller
+Information</font></p>
+
+<p align="left"><font size="4" face="Courier New, Courier, monospace">transmit channel: 2<br>
+local control: off<br>
+Left Pedal: controller 2<br>
+Right Pedal: controller 4</font></p>
+
+<p align="left"><font size="4" face="Courier New, Courier, monospace">Copyright 1996
+Chester Jankowski</font></p>
+</blockquote>
+
+</body>
+</html>

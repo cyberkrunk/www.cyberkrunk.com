@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=iso-8859-1">
+	<TITLE>Chester Jankowski, composer: Irrational Exuberance</TITLE>
+	<META NAME="Description" CONTENT="Chester Jankowski, composer: Irrational Exuberance">
+	<META NAME="Keywords" CONTENT="Chester Jankowski, Irrational Exuberance, composer, electracoustic, cyberkrunk">
+	
+<link rel="stylesheet" type="text/css" href="/style.css" />
+
+</HEAD>
+<BODY>
+
+<h1>Chester Jankowski: music catalogue</h1>
+
+<h2>Orchestra</h2>
+
+<h3>Irrational Exuberance, 1998.</h3>
+<p>For orchestra and 4-channel tape.</p>
+
+<p>Notes<br>
+Irrational Exuberance is a piece that works to summarize on a large scale many of the compositional ideas that had occupied me during my years in the
+University of Toronto graduate school of music, 1992-1998. This was
+somewhat intentional since the piece was submitted as my doctoral
+thesis, but after all, it's a piece of music with a logic of its own
+and not a scholarly work. Self-similarity, where forms are expressed
+at various scales, stochastic or chaotic processes (and the Max
+programming environment), the exciting opportunities that come from 
+pairing live instruments with taped music, all of these figure
+prominently in the piece.</p>
+
+<p>The work is in a single movement with five sections that are relate to both the movements of a traditional symphony and the sections of a sonata form. 
+You might say that these are superficial similarities since this is not a tonal work.<br>
+I - first movement/first theme<br> 
+II - slow movement<br>
+III - scherzo/second theme<br>
+IV - finale/recapitualtion<br>
+V - finale continued/coda</p>
+
+
+<p>Irrational Exuberance is dedicated to my sister, Susan Jankowski-Fratarcangelli</p>
+<p>duration = exactly 20 minutes</p>
+<p>Listen to the first two sections:<br>
+<a HREF="irrational_exuberance_I-II.mp3" NAME="irrational_exuberance_I-II.mp3">irrational_exuberance_I-II.mp3</A> (128 kb/s .mp3: 6.7 MB)</FONT></FONT></p>
+
+<p>Music Copyright 1998 Chester Jankowski</p>
+
+</BODY>
+</HTML>
+

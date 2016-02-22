@@ -1,0 +1,101 @@
+
+#navbar ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+#navbar li
+{
+float:left;
+}
+#navbar a:link, a:visited
+{
+display:block;
+width:120px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#2f4f4f;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+#navbar a:hover, a:active
+{
+background-color:#FFFFFF;
+color: grey;
+}
+
+div.navi {
+width:100%;
+background-color:#2f4f4f;
+ } 
+ 
+body 	{
+		color: white;
+		background-color: black;
+		background-image: url(images/background.jpg);
+		background-position: 100% 30px ;
+		background-repeat: no-repeat ;
+		font-family: courier new, courier, monospace;
+		font-size: 80%;
+	}
+
+div.main {
+		border: none;
+        border-width: thin;
+                border-color: #1a2f1a;
+                padding-left: 5em;
+                padding-right: 5em;
+                padding-top: 1em;
+                padding-bottom: 1em;
+                color: white;
+                #background-color: black;
+                margin-left: 20%;
+                margin-right: 20%;
+                font-family: courier new, courier, monospace;
+	}
+
+h1	{
+		border-bottom: 1px solid white;
+		padding-top: 3px;
+		font-size: 150%;
+		background-color: #3f1a1a;
+		background-image: url(images/grad-rb.jpg);
+                background-position: right;
+                background-repeat: repeat-y;
+	}
+
+h2	{
+		padding-top: 2em;
+		text-align: right;
+	}
+
+h3	{
+		background-image: url(images/grad-gb.jpg);
+		background-position: right;
+		background-repeat: repeat-y;
+		text-decoration: underline;
+		background-color: #1a2f1a;
+		border-left: 2px solid #394f39;
+	}
+
+p	{
+	}
+
+a:link {color: white}
+a:visited {color: white}
+a:hover {color: grey; font-style: bold; font-size: 100%}
+
+div.notes {
+		padding: 1em;
+	}
+
+div.copyright {
+		padding-top: 2em;
+		text-align: center;
+		font-size: 80%;
+	}
+

@@ -1,0 +1,142 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=iso-8859-1">
+	<TITLE>5 Bagatelles</TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 1.0.2  (Linux)">
+	<META NAME="CREATED" CONTENT="20040117;15374100">
+	<META NAME="CHANGED" CONTENT="20040117;16321300">
+	<STYLE>
+	<!--
+		P { color: #ffffff }
+		A:link { color: #ffffff }
+		A:visited { color: #ffffff }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="en-US" TEXT="#ffffff" LINK="#ffffff" VLINK="#ffffff" BGCOLOR="#000000">
+<P ALIGN=LEFT><FONT FACE="Courier"><FONT SIZE=2>5 Bagatelles</FONT></FONT></P>
+<P ALIGN=LEFT><FONT FACE="Courier"><FONT SIZE=2>for 2-channel tape </FONT></FONT>
+</P>
+<P ALIGN=LEFT><FONT FACE="Courier"><FONT SIZE=2>notes</FONT></FONT></P>
+<P ALIGN=LEFT><FONT FACE="Courier"><FONT SIZE=2>Some fun that
+Franaine Buchal and I had one night with an Akai S900.</FONT></FONT></P>
+<P ALIGN=LEFT><FONT FACE="Courier"><FONT SIZE=2>duration = 2'46&quot;</FONT></FONT></P>
+<P ALIGN=LEFT><FONT FACE="Courier"><FONT SIZE=2>Listen:</FONT></FONT></P>
+<P ALIGN=LEFT><FONT SIZE=2><FONT FACE="Courier"><A HREF="bagatelles.mp3" NAME="bagatelles.mp3">bagatelles.mp3</A>
+(128 kb/s .mp3: 4.5 MB)</FONT></FONT></P>
+<P ALIGN=LEFT><FONT FACE="Courier"><FONT SIZE=2>Music Copyright 1994
+Chester Jankowski</FONT></FONT></P>
+<P ALIGN=LEFT><FONT SIZE=2>&nbsp;</FONT></P>
+</BODY>
+</HTML>
+radio/programs/performance/2newhours/2newhours.html"><font
+size="1" face="Courier">Two New Hours</font></a></p>
+
+<p align="left"><font size="1" face="Courier">duration = c. 14
+minutes</font></p>
+
+<P ALIGN=LEFT><FONT FACE="Courier"><FONT SIZE=2>Listen:</FONT></FONT></P>
+<P ALIGN=LEFT><FONT SIZE=2><FONT FACE="Courier"><A HREF="bangbang.mp3" NAME="bangbang.mp3">bangbang.mp3</A>
+(128 kb/s .mp3: 12.8 MB)</FONT></FONT></P>
+<P ALIGN=LEFT><FONT SIZE=2><FONT FACE="Courier"><A HREF="bangbang_interview.mp3" NAME="bangbang_interview.mp3">bangbang_interview.mp3</A>
+(128 kb/s .mp3: 3.8 MB)</FONT></FONT></P>
+
+
+<p align="left"><font size="1" face="Courier">Browse graphics
+samples of the score</font></p>
+
+<p align="left"><a href="bangbang1.GIF"><font size="1"
+face="Courier"><img src="../page1.GIF" alt="page 1" border="0"
+width="76" height="51"></font></a><font size="1" face="Courier"> </font><a
+href="bangbang2.GIF"><font size="1" face="Courier"><img
+src="../page2.GIF" alt="page 1" border="0" width="76" height="51"></font></a><font
+size="1" face="Courier"> </font><a href="bangbang3.GIF"><font
+size="1" face="Courier"><img src="../page3.GIF" alt="page 1"
+border="0" width="76" height="51"></font></a><font size="1"
+face="Courier"> </font></p>
+
+<p align="left"><font size="1" face="Courier">Download the MAX
+patches</font></p>
+
+<p align="left"><a href="bangbang_coll1.0.sit.hqx"><font size="1"
+face="Courier"><img src="maxcoll.GIF" border="0" width="32"
+height="32"></font></a><font size="1" face="Courier">Get the MAX
+3.0 </font><a href="bangbang_coll1.0.sit.hqx"><font size="1"
+face="Courier">Collective</font></a><font size="1" face="Courier">
+if you already have MAX 3.0.<br>
+</font><a href="bangbang1.0.sit.hqx"><font size="1"
+face="Courier"><img src="maxalone.GIF" border="0" width="32"
+height="32"></font></a><font size="1" face="Courier">Get the </font><a
+href="bangbang1.0.sit.hqx"><font size="1" face="Courier">Standalone
+Application</font></a><font size="1" face="Courier"> if you do
+not have MAX (~374Kb).<br>
+</font></p>
+
+<p align="left"><font size="1" face="Courier">Technical Overview</font></p>
+
+<p align="left"><font size="1" face="Courier">The synthesizer is
+connected to a Macintosh computer running bangbang software,
+which consists of a series of MAX patches and a main interface
+patch. The Macintosh routes the MAX generated MIDI data back to
+the synthesizer for playback. The synth's left pedal is used to
+choose the individual patches, which are indicated in the score
+drawn in ovals. The synth's right pedal is used for control
+within two of the patches. The patches are:</font></p>
+
+<p align="left"><font size="1" face="Courier">PBENDER: applies a
+pitch-bend with random speed.<br>
+REPEATER: repeats chords between 3 and 21 times, according to a
+stochastic weighting scheme. This is follwed by a single chord
+consisting of a one-step random walk for each voice.<br>
+CHORDER: adds three notes to a single line, creating four-note
+chords. After the right pedal is pressed, the chords are
+arpeggiated.<br>
+FUGA: creates 4 delayed, transposed notes for every note played
+in (1 for each speaker).<br>
+CONVERGENCE: creates two streams of constantly cycling,
+converging lines. A certain percentage of the notes are deflected
+to the rear speakers and repeated. This percentage starts at 5%
+and ends at 55%.</font></p>
+
+<p align="left"><font size="1" face="Courier">Requirements</font></p>
+
+<p align="left"><font size="1" face="Courier">Acoustic piano<br>
+76-note (or larger) keyboard controller<br>
+Multitimbral synth with acoustic piano emulation, at least 2
+separate stereo outs<br>
+4 channels of amplification (stereo front, stereo rear)<br>
+Appropriate signal processing (i.e., reverb)</font></p>
+
+<p align="left"><font size="1" face="Courier">Channel Map</font></p>
+
+<p align="left"><font size="1" face="Courier">1 front left/right
+(repeater)<br>
+2 front left/right (chorder)<br>
+3 front left/right (fuga: leader)<br>
+4 front left (fuga: follower 4)<br>
+5 front right (fuga: follower 3)<br>
+6 rear left (fuga: follower 1)<br>
+7 rear right (fuga: follower 2)<br>
+8 front left/right (convergence: cascade)<br>
+9 rear left/right (convergence: accents)<br>
+10 not used<br>
+11 not used<br>
+12 not used<br>
+13 not used<br>
+14 not used<br>
+15 rear left pitchbend set to +- 3 semitones (pbender)<br>
+16 rear right pitchbend set to +- 6 semitones (pbender)</font></p>
+
+<p align="left"><font size="1" face="Courier">Controller
+Information</font></p>
+
+<p align="left"><font size="1" face="Courier">transmit channel: 2<br>
+local control: off<br>
+Left Pedal: controller 2<br>
+Right Pedal: controller 4</font></p>
+
+<p align="left"><font size="1" face="Courier">Copyright 1996
+Chester Jankowski</font></p>
+</body>
+</html>
